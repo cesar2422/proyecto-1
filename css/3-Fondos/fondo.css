@@ -1,0 +1,55 @@
+/*CSS define cinco propiedades para establecer el fondo de cada elemento
+(background-color, background-image, background-repeat, background-attachment
+background-position)*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	width: 100%;
+	height:100vh;
+}
+body {
+	/*Muestra tu web con el fondo de color #000000*/
+	background-color: black;
+}
+body {
+	/*Muestra tu web con el fondo de la imagen fondo.jpg*/
+    background-image: url("img/fondos.jpg");
+}
+
+body{
+	/*indica si quieres o no que se repita el fondo
+	  repeat:Repite el fondo horizontal y vertical;
+	  repeat-x: Repite el fondo horizontalmente;
+	  repeat-v: repite el fondo verticalmente;
+	  */
+	  background-repeat: no-repeat;
+}
+
+body{
+	/*controla la posicion en la que se encuentra el fondo
+	porcentajes, el punto superior izquierdo es el 0,0 
+	unidades de medida
+	left: posiciona la imagen a la derecha = 0;
+	right:posiciona la imagen a la derecha = 100%;
+	center: posiciona la imagen en el centro = 50%;
+	top:posiciona la imagen en la parte superior = 0;
+	bottom:posiciona la imagen en la parte de abajo = 100%;*/
+    
+    background-position: 50%;
+}
+body{
+	/*Modifica el tamaño del fondo 
+	     recibe: cover, auto, medidas*/
+	/* background-size: cover;*/
+	background-size: auto;
+}
+body{
+	/* Permite mostrar una imagen fija en la pantalla*/
+    background-attachment: fixed;	
+}
+
+body{
+	background:url('img/fondos.jpg') no-repeat center;
+}

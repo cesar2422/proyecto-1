@@ -1,0 +1,55 @@
+body {
+	/* Selector de etiqueta */
+	/* declaraciones */
+	background-color: white;
+}
+p{
+    /* Selector de etiqueta */
+	/* declaraciones */
+	padding:20px;
+	color: red;
+}
+h1{
+	/* Selector de etiqueta */
+	/* declaraciones */
+	font-size:100px;
+}
+#idPrincipal{
+	/* selector de id: se aplica a todos los elementos de la pagina
+	   cuyo atributo id concida con el de la pagina; */
+
+	/* declaraciones */
+	margin:50px;
+}
+.miclase{
+	/* selector de clase: se aplica a todos los elementos de la pagina
+	   cuyo atributo id concida con el de la pagina; */
+    width: 900px;
+	/* declaraciones */
+}
+div p{
+	/* Selector descendente: permite seleccionar elementos que se
+	   encuentran dentro de otros elementos*/
+
+	/* declaraciones */
+	color:blue;
+	/* Aqui se estan seleccionando todos los parrafos que se encuentran
+	   dentro de un div */
+}
+.miClase, div, span{
+	/* Agrupamiento de selectores: podemos seleccionar varios elementos
+	   separandolos por comas. */
+
+   
+}
+div:hover{
+	/* pseudoclases: permite aplicar distintos estilos a los elementos
+	en relacion a su estado */
+
+	/* declaraciones */
+	background:black;
+	/*pseudoclases hover aplica estilos cuando se pasa el mouse
+	por el elementon */
+
+	/*Tambien existen las pseudoclases: active, :link y :visited*/
+}
